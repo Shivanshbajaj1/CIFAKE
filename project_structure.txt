@@ -1,0 +1,13 @@
+CIFAKE_Simple_Detector/
+|
+|-- app.py
+|-- train.py
+|-- evaluate.py
+|-- gradcam.py
+|-- utils.py
+|-- requirements.txt
+|-- README.md
+|-- data/
+|   `-- README.txt
+`-- models/
+    `-- .gitkeep
