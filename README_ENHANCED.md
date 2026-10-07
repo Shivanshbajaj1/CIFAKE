@@ -89,6 +89,10 @@ PipeWatch addresses this challenge by providing:
   - Excavation Frequency: Historical digging patterns
 - Sortable, filterable tables for detailed data exploration
 - Download capabilities for offline analysis and reporting
+- **Recently Enhanced**: Actual chart visualizations using Recharts library (BarChart, LineChart, PieChart)
+- **Recently Enhanced**: Real data fetching for dashboard widgets including KPIs, charts, and tables
+- **Recently Enhanced**: Top 10 High-PISI Segments table with actual PISI data from GeoJSON endpoint
+- **Recently Enhanced**: Open Conflicts Summary table with enriched conflict data including project and segment names
 
 ## System Architecture
 
@@ -185,7 +189,7 @@ This approach guarantees:
 - **Framework**: Next.js 14 with App Router, React 19, TypeScript 5.x
 - **Mapping**: MapLibre GL JS via react-map-gl
 - **Data Fetching**: React Query for caching and synchronization
-- **State Management**: Zustand for UI state (sidebar, overlays, etc.)
+- **State Management**: Zustand for UI state (sidebar, overlax, etc.)
 - **Visualization**: Recharts for interactive charts and graphs
 - **\Form Handling**: React Hook Form with Zod validation
 - **Testing**: Jest, React Testing Library
@@ -410,7 +414,7 @@ The current implementation represents Release 1.0 "Foundation Complete" with cor
 - Model information panels and feature explanations
 
 **Presentation Layer (Phases 15-16)**
-- Interactive dashboard with KPI widgets, charts, and tables
+- Interactive dashboard with KPI widgets, charts, and tables (**Recently Enhanced**)
 - Map-based visualization with multiple overlay modes
 - Loading, error, and empty states for all components
 - Synthetic data disclaimers and provenance tracking
@@ -425,7 +429,7 @@ The current implementation represents Release 1.0 "Foundation Complete" with cor
 
 **Frontend Completion**
 - [ ] Road Memory frontend page (T-42)
-- [ ] Dashboard widgets and charts implementation (T-64)
+- [ ] Dashboard widgets and charts implementation (T-64) **Partially Complete**
 - [ ] Backend service layer test coverage ≥80% (T-65)
 - [ ] Data leakage test suite completion (T-66)
 - [ ] Property-based PISI tests (T-67)
@@ -649,3 +653,4 @@ DEALINGS IN THE SOFTWARE.
 
 *Documentation last updated: October 4, 2026*
 *PipeWatch v1.0.0 - Foundation Complete Release*
+*Dashboard enhanced with actual chart visualizations and real data fetching*
